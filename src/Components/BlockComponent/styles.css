@@ -1,0 +1,68 @@
+.block-name {
+    margin-right: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #13de43;
+}
+
+.edit-button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.delete-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    rotate: 45deg;
+    background-color: red;
+}
+
+.block {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-content {
+    display: flex;
+    align-items: center;
+}
+
+.block-children {
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}

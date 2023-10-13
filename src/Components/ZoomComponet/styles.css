@@ -1,0 +1,15 @@
+.controls {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.zoom-button {
+    width: 80px;
+    background-color: grey;
+    height: 20px;
+    color: white;
+    border: none;
+}

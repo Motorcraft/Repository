@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.header {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background-color: cadetblue;
+  top: 0;
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.services-block {
+  display: flex;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
+.services-count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0
+}
